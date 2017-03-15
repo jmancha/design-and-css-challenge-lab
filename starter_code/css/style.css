@@ -37,7 +37,7 @@ Developer @GA in NYC
 }
 
 .alignleft {
-  float: left;
+  float: center;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
@@ -50,10 +50,9 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
 }
-
+ 
 
 /******************************************
 /* LAYOUT
@@ -66,14 +65,45 @@ body {
   height: 500px;
 
 }
+h1{
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+}
+h2{
+font-size: 24px
 
+}
+.button{
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+align-center { 
+float left: center;
+}
+
+p{
+  font-weight: 200;
+  font-size: : 20px;
+
+}
+.author{
+  font-size: 25px;
+}
 header {
+min-height: 700px;
+max-width: 100%;
+background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+}
+a{
+  font-size: 20px;
 
 }
-
 footer {
-
-}
+    font-size: 20px;
+    font-size: 30px;
+  }
 
 /******************************************
 /* ADDITIONAL STYLES
