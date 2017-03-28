@@ -31,16 +31,21 @@ Developer @GA in NYC
   clear: both;
 }
 
-.alignright {
+.alignleft {
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0 10px 10px; /* note the padding around a right floated image */
 }
 
 .alignleft {
   float: center;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
-
+.file .image {
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    background-color: #ddd;
+    } 
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -50,69 +55,186 @@ body {
      font-size: 20px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-      background-size: cover;
+     background-size: cover;
 }
- 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
+
 #container {
   width: 100%;
   margin: 0 auto;
-  height: 500px;
+  height: 50px;
   text-align: center;
 
 }
+
 h1{
-  font-size: 24px;
+  font-size: 30px;
   color: white;
   font-weight: 400;
-  text-align: center;
-  margin-left: 
-}
-h2{
-font-size: 30px
+  text-align: left;
+  padding-left: 50px;
+  margin-right: 30px;
 
+
+}
+
+p.quote2 {
+  font-size: 18px;
+}
+
+p.quote1 {
+  font-size: 18px;
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: bold, Helvetica, Arial, sans-serif;
+
+}
+
+h2{
+font-size: 24px;
+color: white;
+margin: center;
+padding: 50px;
+font-style: bold;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 24px;
+  color: yellow;
+}
+
+.container1 {
+  font-size: 40px;
+  background: repeat center top rgb(0,0,0);
+  color: #FFFF00;
+  padding: 10px;
+  }
+
+.middle {
+    background-color: white;
 }
 
 .button{
-  font-size: 25px;
-  border-radius: 20px;
+  font-size: 150px;
+  border-radius: 80px;
+  padding: 40px;
+  margin: 20px;
 }
 
+.button-1 {
+    font-size: 14px;
+    color: black;
+    border-radius: 5px;
+}
+
+.button-2 {
+    font-size: 12px;
+    color:black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
 align-center { 
-float right: center;
+float right: left;
 }
 
-p{
+p {
   font-weight: 180;
   font-size: : 20px;
-
 }
 .author{
   font-size: 25px;
 }
-header {
-min-height: 700px;
-max-width: 100%;
-background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+
+.quote {
+  font-size: 30px;
+  font-weight: 160px;
+  text-align: center;
+  color: white; 
 }
 
+header {
+min-height: 300px;
+max-width: 100%;
+background: url(../images/header_bg.jpg) repeat center top rgb(134,141,157);
+}
+
+.file .image {
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    background-color: #ddd;
+    } 
 a{
   font-size: 20px;
-
 }
+.quote {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);  
+  min-height: 200px;
+}
+
+p {
+  font-size: 15px;
+  color: black;
+}
+li {
+  font-size: 15px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.p1 {
+   font: 15px;
+   margin: 10px;
+   color: white;
+} 
+
+.p2 {
+  text-decoration-color: white;
+}
+
+.signUp {
+  background: repeat center top rgb(255,255,0);
+  color: yellow;
+}
+
+.social {
+  background: repeat center top rgb(0,0,0);
+  color: white;
+}
+
+#copy {
+  background: repeat center top rgb(0,0,0);
+  color: white;
+  font-weight: bold; 
+  font-size: 9px;
+}
+
 footer {
-    font-size: 10px;
     font-size: 20px;
-  }
+    font-size: 20px;
+    padding: 
 
-.author p {
-  font-size: 30px;
 }
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
